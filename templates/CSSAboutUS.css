@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-color: rgb(241, 7, 7);
+    font-family: bold;
+    background-image: url(../static/makingpizza.jpg);
+    background: no-repeat;
+
+}
+.topPic .pic{
+    height: 300px;
+    width: 80%;
+    padding-left: 180px;
+
+}
+.nav{
+    background-color: rgb(226, 139, 113);
+    color:rgb(237, 240, 243);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.navFooter{
+    height: 30px;
+    position:relative;  top:50px;
+    
+}
+
+.icon {
+    height: 50px;
+    padding-left: 500px;
+}
+
+.facebookicon{
+    height: 50px;
+    padding-left: 1200px;
+    size: 20px;
+    position:relative;  top:50px;
+}
+.nav-list ,.navFooter{
+    list-style-type: none;
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.nav a ,.navFooter a {
+    color: rgb(246, 246, 248);
+    text-decoration: none; 
+}
+
+.nav a:hover , .navFooter a:hover{
+    color: rgb(219, 136, 136);
+}
+
+.text {
+    background-color: white;
+    border: 2px;
+    text-align: left;
+    width: 1150px;
+    height: 250px;
+    margin-left: 100px;
+    font-family: bold;
+    border: 2px solid black;
+}
+
+.text .inText{
+    padding: 20px;
+    width: 700px;
+}
+
+.footer {
+    position:relative;  top:0px;
+}
+
+#Copyright{
+    color: white;
+    position:relative;  top:100px;
+    padding-left: 400px;
+    
+}
+
+
+@font-face{
+    font-family: firstFont;
+    src: url(../static/Montserrat/static/Montserrat-Light.ttf);
+
+    font-family: bold;
+    src: url(../static/Montserrat/static/Montserrat-Regular.ttf);
+
+}

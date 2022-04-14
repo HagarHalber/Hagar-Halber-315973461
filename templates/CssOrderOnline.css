@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    background-image: url(../static/contactUsPic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: bold;
+
+}
+.nav {
+    color:rgb(237, 240, 243);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;   
+}
+
+.nav {
+    background-color: rgb(243, 86, 39);
+}
+
+.navFooter{
+    height: 30px;
+    position:relative;  top:50px;
+
+}
+
+
+.icon {
+    height: 50px;
+    padding-left: 500px;
+}
+
+.facebookicon{
+    height: 50px;
+    padding-left: 1200px;
+    size: 20px;
+    position:relative;  top:50px;
+}
+
+
+.nav-list  {
+    list-style-type: none;
+}
+
+.nav-list .list-item{
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+
+.nav a ,.navFooter a{
+    color: rgb(246, 246, 248);
+    text-decoration: none;
+    
+}
+
+ .nav a:hover ,.navFooter a:hover{
+    color: rgb(219, 136, 136);
+}
+
+.text {
+    background-color: white;
+    border: 2px;
+    text-align: left;
+    width: 1150px;
+    height: 470px;
+    margin-left: 100px;
+    font-family: bold;
+    position:relative;  top:50px;
+}
+
+.text .inText{
+    padding: 20px;
+}
+
+#par{
+    font-size: 20px;
+    width: 800px;
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+#contact {
+    padding-left: 50px;
+}
+
+#ContactRes{
+    font-size: 18px;
+    text-align: left;
+    padding-left: 50px;
+}
+
+#contactreason{
+    width: 200px;
+    font-family: bold;
+    font-size: 15px;
+    text-align: center;
+}
+
+#details{
+    display: inline-block; 
+}
+#email{
+    padding-left: 50px; 
+}
+
+.footer {
+    position:relative;  top:100px;
+}
+
+#Copyright{
+    color: white;
+    position:relative;  top:100px;
+    padding-left: 400px;
+    
+}
+
+#date{
+    width: 170px;
+    text-align: center;
+}
+
+#text{
+    width: 400px;
+    height: 150px;
+    
+}
+
+#textdiv{
+    padding-left: 450px;
+    position:relative;  bottom: 170px;;
+
+}
+
+#input{
+    position:relative;  top: 10px;
+    border: 2px black;
+}
+
+@font-face{
+    font-family: firstFont;
+    src: url(../static/Montserrat/static/Montserrat-Light.ttf);
+
+    font-family: bold;
+    src: url(../static/Montserrat/static/Montserrat-Regular.ttf);
+
+}
