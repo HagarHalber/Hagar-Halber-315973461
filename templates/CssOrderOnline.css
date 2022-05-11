@@ -12,7 +12,17 @@ body{
     font-family: bold;
 
 }
+
+#header{
+    font-size: 40px;
+    display: inline-block;
+    padding-left: 0px;
+
+
+}
+
 .nav {
+    background-color: rgb(243, 86, 39);
     color:rgb(237, 240, 243);
     display: flex;
     justify-content: space-around;
@@ -20,9 +30,7 @@ body{
     font-size: 20px;   
 }
 
-.nav {
-    background-color: rgb(243, 86, 39);
-}
+
 
 .navFooter{
     height: 30px;
@@ -33,7 +41,7 @@ body{
 
 .icon {
     height: 50px;
-    padding-left: 500px;
+    padding-left: 290px;
 }
 
 .facebookicon{

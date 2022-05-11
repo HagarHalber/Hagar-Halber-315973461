@@ -12,6 +12,15 @@ body{
     font-family: bold;
 
 }
+
+#header{
+    font-size: 40px;
+    display: inline-block;
+    padding-left: 0px;
+
+
+}
+
 .nav{
     color:rgb(237, 240, 243);
     display: flex;
@@ -30,10 +39,11 @@ body{
 
 }
 
-.icon{
+.icon {
     height: 50px;
-    padding-left: 500px;
+    padding-left: 290px;
 }
+
 
 .facebookicon{
     height: 50px;
