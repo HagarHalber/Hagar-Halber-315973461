@@ -5,35 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AboutUs</title>
-    <link rel="stylesheet" href="CSSAboutUS.css">
+    <link rel="stylesheet" href="AllPages.css">
     <script defer src="AllPagesJS.js"></script>
 </head>
-<body id="AboutUsBody">
-   <div id="container">
+<body id="AboutUsBody" onload="typing()">
     <nav class="nav">
-        <div>
-            <header id="header">Hagar's Pizza</header>
-            <a href="#">
-                <img class="icon" src="../static/pizza.png">
-            </a>
+        <div id="divnav">
+            <header id="header"></header>
+            <img class="icon" src="../static/pizza.png">
         </div>
         <ul class="nav-list">
             <li class="list-item">
-                <a href="AboutUs.html">About Us</a>
+                <a class="headnav" href="AboutUs.html">About Us</a>
             </li>
             <li class="list-item">
-                <a href="HomePage.html">Home Page</a>
+                <a class="headnav" href="HomePage.html">Home Page</a>
             </li>
             <li class="list-item">
-                <a href="ContactUs.html">Contact</a>
+                <a class="headnav" href="ContactUs.html">Contact</a>
             </li>
         </ul>
     </nav>
-    <div class="topPic">
-        <img class="pic" src="../static/makingpizza.jpg" alt="">
-    </div>
-    <div class="text" style="height: 250px; border: 2px solid black; position: relative;top: 0px;">
-        <h1 class="inText">About Us</h1><BR>
+    <div class="textAboutUs" >
+        <h1 class="inText">About Us</h1>
         <p class="inText">
             Hagar's Pizza is a unique place. It attracts with its original interior but above all the quality of the dishes served.
             Carefully prepared dishes are characterized by freshness and a lot of ingredients.
@@ -48,21 +42,18 @@
                     <img class="facebookicon" src="../static/facebook.png">
                 </a>
             </div>
-
             <ul class="nav-list">
                 <li class="list-item">
-                    <a href="#" style="color: black;">Locations & Hours</a>
+                    <a href="AboutUs.html" style="color: black;">About Us</a>
                 </li>
                 <li class="list-item">
-                    <a href="#" style="color: black;">Social With Us</a>
+                    <a href="HomePage.html" style="color: black;">Home Page</a>
                 </li>
                 <li class="list-item" >
-                    <a href="#" style="color: black;">Menu</a>
+                    <a href="ContactUs.html" style="color: black;">Contact</a>
                 </li>
             </ul>
-        </nav>
-        <p id="Copyright"> © 2019 by The Hagar's Pizza Shop. Beer-Sheva Israel</p>
+        </nav><br>
     </footer>
- </div>
 </body>
 </html>

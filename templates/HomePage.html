@@ -5,37 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HomePage</title>
-    <link rel="stylesheet" href="CSSnav1.css">
+    <link rel="stylesheet" href="AllPages.css">
     <script defer src="AllPagesJS.js"></script>
-
 </head>
-<body id="HomePageBody">
+<body id="HomePageBody" onload="typing()" onload="changeImage()">
     <nav class="nav">
         <div>
-            <header id="header">Hagar's Pizza</header>
-            <a href="#">
-                <img class="icon" src="../static/pizza.png">
-            </a>
+            <header id="header"></header>
+            <img class="icon" src="../static/pizza.png">
         </div>
         <ul class="nav-list">
             <li class="list-item">
-                <a href="AboutUs.html">About Us</a>
+                <a class="headnav" href="AboutUs.html">About Us</a>
             </li>
             <li class="list-item">
-                <a href="HomePage.html">Home Page</a>
+                <a class="headnav" href="HomePage.html">Home Page</a>
             </li>
             <li class="list-item">
-                <a href="ContactUs.html">Contact</a>
+                <a class="headnav" href="ContactUs.html">Contact</a>
             </li>
         </ul>
     </nav>
+    <div id="main">
     <div class="welcome">
-        <p class="par">world of wonderful flavors</p>
+        <p class="par">Welcome to Hagar's Pizza a world of wonderful flavors</p>
     </div>
     <div class="orderButton">
-        <a href="#">
-            <button class="Button">ORDER ONLINE</button>
-        </a> 
+        <form method="get" action="URL">
+            <button class="Button" type="button">ORDER ONLINE</button>
+            <button class="ButtonSmall" type="button">ORDER ONLINE</button>
+        </form>
+    </div>
     </div>
     <footer class="footer" style="position: relative; top: 600px;">
         <nav class="navFooter">
@@ -44,20 +44,18 @@
                     <img class="facebookicon" src="../static/facebook.png">
                 </a>
             </div>
-
             <ul class="nav-list">
                 <li class="list-item">
-                    <a href="#">Locations & Hours</a>
+                    <a href="AboutUs.html">About Us</a>
                 </li>
                 <li class="list-item">
-                    <a href="#">Social With Us</a>
+                    <a href="HomePage.html" >Home Page</a>
                 </li>
-                <li class="list-item">
-                    <a href="#">Menu</a>
+                <li class="list-item" >
+                    <a href="ContactUs.html" >Contact</a>
                 </li>
             </ul>
         </nav>
-        <p id="Copyright"> © 2019 by The Hagar's Pizza Shop. Beer-Sheva Israel</p>
     </footer>
 </body>
 </html>
